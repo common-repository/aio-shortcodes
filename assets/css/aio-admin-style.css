@@ -1,0 +1,138 @@
+.aio-spinner-loader img {
+    border-style: none;
+    height: 48px;
+    max-width: 100%;
+    vertical-align: middle;
+}
+.aio-spinner-loader .img_fluid{
+    display: none;
+}
+.aio-spinner-loader #post_search{
+    margin-top:10px;
+}
+.aio-spinner-loader{ 
+    display: flex !important;
+}
+div#selected_posts_box {
+    margin-top: 8px ;
+}
+#post_search{
+    width: 220px;
+}
+.aio_search{
+margin-bottom:10px !important;
+}
+
+/* ---- --  aio customiser css in backend  -------- */
+
+.code-editor {
+    position: relative;
+    display: flex;
+    height: auto; 
+    overflow: hidden; 
+    max-height: 200px;
+    padding-top: 15px;
+}
+.code-editor textarea {
+    border: 1px solid #ccc;
+    padding-left: 15px; 
+    padding-top: 0;
+    line-height: 25px;
+    resize: none;
+    overflow: auto;
+    font-family: monospace; 
+    flex: 1;
+    height: 100%;
+    border-radius: 0;
+}
+.code-line-numbers {
+    width: auto; 
+    border-top: 1px solid #ccc;
+    padding: 0px 5px; 
+    line-height: 25px;
+    background-color: #fff;
+    overflow-y: inherit; 
+    border-left: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.code-line-numbers span {
+    display: block;
+    text-align: right;
+    color: #999;
+    font-size: 14px;
+    font-family: monospace;
+}
+.code-editor textarea:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+/* Table styles */
+#selUser {
+  border-collapse: collapse;
+  width: auto !important;
+  max-width: 416px; /* Adjust as needed */
+  max-height: 200px;;
+  margin: 12px 0;
+  overflow: auto !important;
+}
+
+#selUser th, #selUser td {
+  border: 1px solid #cccccc;
+  padding: 5px 10px;
+  text-align: left;
+  font-size: 14px;
+}
+
+#selUser th {
+  background-color: #f2f2f2;
+}
+
+/* Button style */
+.exclude-post-delete {
+  padding: 2px 8px;
+  background-color: #d45050;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.exclude-post-delete:hover {
+  background-color: #ff4837;
+}
+
+td.exclude_delete , th.exclude_delete {
+    text-align: center !important;
+}
+th.exclude_table , td.exclude_table td {
+    border: 1px solid #ddd;    
+    font-size: 14px;
+    vertical-align: middle !important;
+    width: auto !important;
+}
+#selUser thead th {
+    POSITION: STICKY;
+    TOP: 0;
+    z-index: 999;
+}
+td.exclude_delete {
+    position: relative;
+}
+td.exclude_delete img {
+    position: absolute;
+    top: 0;
+    left: 40%;
+    width: 32px;
+    display: none;
+}
+.deleted button.exclude-post-delete {
+    opacity: 0.2;    
+    cursor: not-allowed;
+}
+.deleted img{       
+    display: block !important;
+}
+
+table#selUser td, table#selUser th {
+    display: table-cell !important;
+}
